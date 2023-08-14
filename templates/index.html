@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<header>
+<head>
+    <title>Stock Market Prediction</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/static/img/new.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            height: 100vh;
+	        background-position: center;
+        }
+        body {
+            color: white;
+            text-align: center;
+        }
+        *{
+	margin:0;
+	padding: 0;
+	 font-family: Century Gothic;
+}
+.btn{
+	border: 1px solid hsl(240, 55%, 70%);
+	padding: 10px 30px;
+	color: #2a0404;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #7e98ee;
+	color: #afa0f0;
+}
+h1{
+    font-size: 5ch;
+}
+form{
+    font-size: 3ch;
+}
+    </style>
+</head>
+<body><br><br><br><br><br><br><br><br>
+    <h1>Stock Market Prediction App</h1><br><br>
+    <form action="/predict" method="POST">
+        <label for="open">Open Price:</label>
+        <input type="number" name="open" id="open" step="0.01" required><br><br>
+
+        <label for="high">High Price:</label>
+        <input type="number" name="high" id="high" step="0.01" required><br><br>
+
+        <label for="low">Low Price:</label>
+        <input type="number" name="low" id="low" step="0.01" required><br><br>
+
+        <label for="volume">Volume:</label>
+        <input type="number" name="volume" id="volume" required><br><br>
+
+        <input class= "btn" type="submit" value="Predict">
+    </form>
+    {% if prediction %}
+        <h2>Prediction: {{ prediction }}</h2>
+    {% endif %}
+</body>
+</header>
+</html>
