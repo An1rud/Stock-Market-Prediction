@@ -1,0 +1,7 @@
+Import the following before running
+1)Flask
+2)pandas
+3)SKlearn
+4)datetime
+
+after all this run the app.py and open the link
