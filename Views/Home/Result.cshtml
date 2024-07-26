@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Stock Prediction Result</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("/img/new.jpg");
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            height: 100vh;
+            background-position: center;
+        }
+        body {
+            color: white;
+            text-align: center;
+        }
+        *{
+            margin:0;
+            padding: 0;
+            font-family: Century Gothic;
+        }
+        .btn{
+            border: 1px solid hsl(240, 55%, 70%);
+            padding: 10px 30px;
+            color: #ffffff;
+            text-decoration: none;
+            transition: 0.6s ease;
+        }
+        .btn:hover{
+            background-color: #7e98ee;
+            color: #afa0f0;
+        }
+        h1{
+            font-size: 5ch;
+        }
+        form{
+            font-size: 3ch;
+        }
+    </style>
+</head>
+<body background="C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\wwwroot\img\new.jpg">
+    <h2>Stock Prediction Result</h2>
+    <p>The predicted next day's close price is: @ViewBag.Prediction</p><br><br>
+    <a href="/" class="btn">Go Back</a>
+</body>
+</html>
