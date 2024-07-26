@@ -26,7 +26,7 @@ The Stock Market Prediction Web App leverages machine learning to predict future
 
 ## Prerequisites
 
-- .NET 6.0 SDK
+- .NET 8.0 SDK
 - Microsoft.ML
 - Microsoft.ML.Data
 
