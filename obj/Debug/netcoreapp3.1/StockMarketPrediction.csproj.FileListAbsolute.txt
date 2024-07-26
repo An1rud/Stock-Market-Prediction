@@ -1,0 +1,8 @@
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.csproj.AssemblyReference.cache
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.AssemblyInfoInputs.cache
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.AssemblyInfo.cs
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.csproj.CoreCompileInputs.cache
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.RazorAssemblyInfo.cache
+C:\Users\aniru\OneDrive\Desktop\StockMarketPrediction\obj\Debug\netcoreapp3.1\StockMarketPrediction.RazorAssemblyInfo.cs
