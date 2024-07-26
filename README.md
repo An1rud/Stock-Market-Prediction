@@ -92,11 +92,3 @@ StockMarketPredictionApp/
 - `Program.cs`: The entry point of the application.
 - `Startup.cs`: Configures the application services and middleware.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-```
